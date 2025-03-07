@@ -5,7 +5,7 @@ export default function NotFoundScreen() {
   return (
 
     <>
-      <Stack.Screen options={{ title: 'Oops! Not Found', headerStyle: {backgroundColor: '#9e58e8'}, headerShadowVisible :false, headerTintColor:'#ffffff' }}  />
+      <Stack.Screen options={{ title: 'Oops! Not Found', headerStyle: {backgroundColor: '#25292e'}, headerShadowVisible :false, headerTintColor:'#ffffff' }}  />
       <View style={styles.container}>
         <Image
         source={{uri:"https://i.pinimg.com/originals/0e/c0/db/0ec0dbf1e9a008acb9955d3246970e15.gif"}}

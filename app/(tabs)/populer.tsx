@@ -1,6 +1,6 @@
 import { Text, View, StyleSheet, Image, Dimensions } from 'react-native';
 
-
+const { width } = Dimensions.get('window');
 const data = [
   {
     id: '1',
@@ -80,7 +80,8 @@ const styles = StyleSheet.create({
     flexDirection:'row',
     gap:30,
     justifyContent:'center',
-    flexWrap: 'wrap'
+    flexWrap: 'wrap',
+    width:'auto'
   },
   card: {
     backgroundColor: '#fff',
@@ -92,7 +93,7 @@ const styles = StyleSheet.create({
     shadowRadius: 4,
     elevation: 5,
     marginBottom: 15,
-    width: '20%', 
+    width: width * 0.20, 
   },
   cardImage: {
     width: '100%',
